@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="Voornaam">Voornaam:</label>
+            <input type="text" id="Voornaam" name="Voornaam" onkeydown="return /[a-z]/i.test(event.key)" required>
+        </div>
+
+        <div></div>
+            <label for="Achternaam">Achternaam:</label>
+            <input type="text" id="Achternaam" name="Achternaam" required>
+        <div>
+            <label for="Geslacht">Geslacht:</label>
+            <label for="Man">Man</label>
+            <input type="radio" name="Geslacht" id="Man" value="Man" checked>
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" name="Geslacht" id="Vrouw" value="Vrouw">
+        </div>
+
+        <div>
+            <label for="Straat+huis.nr">Straat+huis.nr:</label>
+            <input type="text" name="Straat+huis.nr" id="Straat+huis.nr" size="40"  required>
+            <label for="Postcode">Postcode:</label>
+            <input type="text" name="Postcode" id="Postcode" required>
+        </div>
+
+            <label for="Stad">Stad:</label>
+            <input type="text" name="Stad" id="Stad" required>
+            <label for="land">Land:</label>
+            <input type="text" name="land" id="land" required>
+        <div>
+
+            <label for="BSN-nummer">BSN-nummer:</label>
+            <input type="number" name="BSN-nummer" id="BSN-nummer" onKeyPress="if(this.value.length==9) return false;" min="0" max="99999999" required>
+        </div>
+
+        <div>
+        <label for="Landen">Vakantie landen:</label>
+            <select name="landen" id="landen" required>
+                <option value="Vakantielanden">Spain</option>
+                <option label="Italy" value="Italy"></option>
+                <option label="switzerland" value="Switzerland"></option>
+                <option label="Japan" value="Japan"></option>
+                <option label="Curacao" value="Curacao"></option>
+                <option label="Finland" value="Finland"></option>
+                <option label="Germany" value="Germany"></option>
+                <option label="Poland" value="Poland"></option>
+                <option label="Canada" value="Canada"></option>
+                <option label="Venezuela" value="Venezuela"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Datum">Datum van vertrek:</label>
+            <input type="date" name="Datum" id="Datum" min="2024-09-14" required>
+        </div>
+
+        <div>
+            <label for="Datum">Datum van terugkomst:</label>
+            <input type="date" name="Datum" id="Datum" min="2024-09-16" required>
+        </div>
+
+        <div>
+            <label for="Reisgenoten">Aantal reisgenoten:</label>
+            <input type="number" name="reisgenoten" id="reisgenoten" min="1" max="4" onKeyPress="if(this.value.length==1) return false;" max="99999999" required>
+        </div>
+
+        <div>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" name="wachtwoord" id="wachtwoord" required>
+        </div>
+
+        <div>
+            <label for="E-mail">E-mail:</label>
+            <input type="text" name="E-mail" id="E-mail" required>
+        </div>
+
+        <div>
+            <button type="submit">Boek nu</button>
+        </div>
+
+      </form>
+</body>
+</html>
