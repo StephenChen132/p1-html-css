@@ -1,8 +1,9 @@
 h1{
     font-size: 24px;
-    color: blue;
+    color: #fafafa;
     font-weight: bold;
-    font-style:italic
+    font-style:italic;
+    margin: 0;
 }
 
 h2{
@@ -24,9 +25,37 @@ p{
 
 #first-paragraph{
     font-weight: bold;
+    color: white;
 }
+
 
 a{
     color: #8a2be2;
     text-decoration: none;
 }
+
+header{
+    background-image: url(img/Wukong.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ img{
+    width: 50%;
+ }
+
+ article{
+    border-style: double;
+    border-radius: 20px;
+    border-left-width: 10px;
+    border-color: green;
+ }
+
+
