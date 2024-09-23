@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+         footer{
+            background-color:#00a8c7;
+            position:fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            color: white;
+        }
+        
+        h1{
+            font-size: 60px;
+            line-height: 190px;
+            text-align: center;
+        }
+
+        #button{
+            background-color: #00a8c7;
+            border: none;
+            color: white;
+            width: 45%;
+            height: 50px;
+            font-size: 25px;
+            border: 1px solid #00a8c7;
+            border-radius: 4px;
+            font-family: "Goldman", cursive;
+        }
+
+        label{
+            font-size: 20px;
+        }
+
+        #Form{
+            float: right;
+            width: 65%;
+        }
+
+        #Message{
+            width: 45%;
+            height: 160px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+
+        .box1{
+            width: 45%;
+            height: 40px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./img/hacker.png" id="logo" />
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html-css.html">HTML/CSS</a></li>
+            <li><a href="Javascript.html">Javascript</a></li>
+            <li><a href="PHP.html">PHP</a></li>
+            <li><a href="SQL.html">SQL</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Contact</h1>
+
+      <section>
+        <div id="Form">
+            <ul>
+                <label for="Name">Naam</label><br>
+                <input class="box1" type="text" id="Name"><br>
+                <label for="E-mail">E-mail</label><br>
+                <input class="box1" type="email"><br>
+                <label for="Message">Bericht</label><br>
+                <input type="text" id="Message"><br><br>
+                <button id="button">Versturen</button>
+            </ul>
+        </div>
+      </section>
+
+       
+      <footer>
+        <p>Copyright Techniek College Rotterdam</p>
+      </footer>
+</body>
+</html>
