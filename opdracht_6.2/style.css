@@ -5,15 +5,41 @@
 }
 
 .flex-container {
-    background: grey;
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
 }
 
 .item-1{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background: blue;
     margin: 10px;
     color: white;
 }
 
-.item-2
+.item-2{
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 10px;
+    color: white;
+}
+
+.item-3{
+    width: 200px;
+    height: 200px;
+    background:red;
+    margin: 10px;
+    color: white;
+}
+
+.item-4{
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 10px;
+    color: white;
+}
