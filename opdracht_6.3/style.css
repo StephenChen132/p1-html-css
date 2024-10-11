@@ -1,19 +1,41 @@
 ul{
     list-style-type: none;
     display: flex;
-    
-    
+
 }
 
-nav a{
+.item-1{
+    float: left;
+    width: 30%;
+}
+
+.item-2{
+    width: 40%;
+}
+
+.item-2-5{
+    justify-content: space-between
+
+
+}
+.item-3{
+    width: 30%;
+}
+
+.item-3-5{
+    float: right;
+    margin-right: 30px;
+}
+
+nav{
+    display: flex;
+    width: ;
+}
+
+a{
     text-decoration: none;
-    color: blue;
-    font-size: 25px;
 }
 
-.item{
-
+li{
+    font-size: 40px;
 }
-
-
-
