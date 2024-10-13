@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    background:#686DE0 ;
+    
+    height:15vh;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    padding-left: 50px;
+}
+
+.container{
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ flex-direction: column;
+ color: white;
+}
+
+.box-1{
+    background-color: #7ED6DF;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-2{
+    background-color: #E056FD;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-3{
+    background-color:#30336A;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.list{
+    align-items: flex-start;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+
+
+@media screen and (min-width: 576px) {
+        .square {
+            background-color:#FF6B81 ;
+            
+        }
+    }
+
+    @media screen and (min-width: 576px) {
+        .main-nav {
+            background-color: #FF6B81;
+            text-align: center;
+
+        }
+    }
+
+@media screen and (min-width: 576px) {
+        .container {
+            color: black;
+            
+        }
+    }
+
+
+@media screen and (min-width: 576px) {
+    .box-1{
+        background-color: #FE4657;
+        text-align: start;
+        color: white;
+        padding-left: 40px;
+     
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .box-2{
+        background-color: #5352EC;
+        text-align: left;
+        color: white;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .box-3{
+        background-color: #3742F9;
+        text-align: left;
+        color: white;
+        padding-left: 40px;
+        
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .square {
+        background-color: #CF5B52;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-nav {
+        background-color: #CF5B52;
+        text-align: start;
+        padding-left: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        color: black;
+        
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+.box-1{
+    background-color: #EBCA50;
+    text-align: left;
+    padding-left: 150px;
+    color: black;
+}
+}
+
+@media screen and (min-width: 768px) {
+.box-2{
+    background-color: #DA9546;
+    text-align: left;
+    padding-left: 150px;
+    color: black;
+}
+}
+
+@media screen and (min-width: 768px) {
+.box-3{
+    background-color: #7BAC5B;
+    text-align: left;
+    padding-left: 150px;
+    color: black;
+}
+}
+
+
